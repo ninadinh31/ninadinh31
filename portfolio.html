@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title>Portfolio</title>
     <link rel="icon" href="favicon.png">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
     <script
             src="https://code.jquery.com/jquery-3.1.1.min.js"
@@ -11,15 +13,26 @@
             crossorigin="anonymous"></script>
     <script src="semantic/dist/semantic.min.js"></script>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <script src="script.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 
-<div id="banner">
-    <img id="img_me" src="me.jpg" height="400" width="400"/>
+<div id="banner" style="position: relative; z-index: 1;">
+    <img id="img_me" src="me.jpg" height="400" width="400" style="position: absolute; z-index: 2;"/>
+    <span style="position: absolute; top: 0px; z-index: 3;">
+        <div id="banner_text">
+            <h1>Nina Dinh</h1>
+            <div class="ui text shape">
+                <div class="sides">
+                    <div class="active ui header side">optimistic gal</div>
+                    <div class="ui header side">social advocate</div>
+                    <div class="ui header side">investigator</div>
+                </div>
+            </div>
+        </div>
+    </span>
 </div>
 
 <div class="ui container" id="navbar">
