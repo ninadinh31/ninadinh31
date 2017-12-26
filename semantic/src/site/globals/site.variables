@@ -10,7 +10,7 @@
 @olive          : #32CD32;
 @green          : #016936;
 @teal           : #008080;
-@blue           : #1F3768;
+@blue           : #213e7a;
 @violet         : #EE82EE;
 @purple         : #B413EC;
 @pink           : #FF1493;
@@ -21,5 +21,7 @@
 @emSize         : 20px;
 @fontSize       : 20px;
 @mutedTextColor : @primaryColor;
-@selectedTextColor: #A7DCE2;
+@selectedTextColor: #90dce5;
 @largeSize: (20 / 14);
+@linkColor      : @blue;
+@linkHoverColor : #90dce5;

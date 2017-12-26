@@ -270,7 +270,7 @@
 .ui.definition.table tr td.definition {
   background: rgba(0, 0, 0, 0.03);
   font-weight: bold;
-  color: #A7DCE2;
+  color: #90dce5;
   text-transform: '';
   -webkit-box-shadow: '';
           box-shadow: '';
@@ -498,7 +498,7 @@
 .ui.selectable.table tbody tr:hover,
 .ui.table tbody tr td.selectable:hover {
   background: rgba(0, 0, 0, 0.05) !important;
-  color: #A7DCE2 !important;
+  color: #90dce5 !important;
 }
 .ui.selectable.inverted.table tbody tr:hover,
 .ui.inverted.table tbody tr td.selectable:hover {
@@ -615,7 +615,7 @@
 /* Allow striped active hover */
 .ui.striped.selectable.selectable.selectable.table tbody tr.active:hover {
   background: #EFEFEF !important;
-  color: #A7DCE2 !important;
+  color: #90dce5 !important;
 }
 
 /*--------------
@@ -692,10 +692,10 @@
 
 /* Blue */
 .ui.blue.table {
-  border-top: 0.2em solid #1F3768;
+  border-top: 0.2em solid #213e7a;
 }
 .ui.inverted.blue.table {
-  background-color: #1F3768 !important;
+  background-color: #213e7a !important;
   color: #FFFFFF !important;
 }
 
@@ -926,7 +926,7 @@
 /* Sorted */
 .ui.sortable.table thead th.sorted {
   background: rgba(0, 0, 0, 0.05);
-  color: #A7DCE2;
+  color: #90dce5;
 }
 .ui.sortable.table thead th.sorted:after {
   display: inline-block;
@@ -935,7 +935,7 @@
 /* Sorted Hover */
 .ui.sortable.table thead th.sorted:hover {
   background: rgba(0, 0, 0, 0.05);
-  color: #A7DCE2;
+  color: #90dce5;
 }
 
 /* Inverted */

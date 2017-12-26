@@ -574,10 +574,10 @@
 
 /* Blue */
 .ui.blue.segment:not(.inverted) {
-  border-top: 2px solid #1F3768 !important;
+  border-top: 2px solid #213e7a !important;
 }
 .ui.inverted.blue.segment {
-  background-color: #1F3768 !important;
+  background-color: #213e7a !important;
   color: #FFFFFF !important;
 }
 
@@ -699,7 +699,7 @@
 /* Secondary */
 .ui.secondary.segment {
   background: #F3F4F5;
-  color: #1F3768;
+  color: #213e7a;
 }
 .ui.secondary.inverted.segment {
   background: #333333 -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.2)), to(rgba(255, 255, 255, 0.2)));
@@ -711,7 +711,7 @@
 /* Tertiary */
 .ui.tertiary.segment {
   background: #DCDDDE;
-  color: #1F3768;
+  color: #213e7a;
 }
 .ui.tertiary.inverted.segment {
   background: #595959 -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.35)), to(rgba(255, 255, 255, 0.35)));
