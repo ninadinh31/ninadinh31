@@ -18,10 +18,14 @@
 @grey           : #A0A0A0;
 @black          : #000000;
 
-@emSize         : 20px;
-@fontSize       : 20px;
+@emSize         : 18px;
+@fontSize       : 18px;
 @mutedTextColor : @primaryColor;
 @selectedTextColor: #90dce5;
 @largeSize: (20 / 14);
 @linkColor      : @blue;
 @linkHoverColor : #90dce5;
+@headerFont     : 'Josefin Sans';
+@googleFontName    : @headerFont;
+@googleFontSizes   : '200,300,200italic,300italic';
+@googleFontRequest : 'Lato:200,400,600,200italic,400italic,600italic%7C@{googleFontName}:@{googleFontSizes}';

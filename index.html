@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Nina Dinh</title>
-    <link rel="icon" href="favicon.png">
+    <link rel="icon" href="portfolio.gif">
 
     <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -13,21 +13,23 @@
             crossorigin="anonymous"></script>
     <script src="semantic/dist/semantic.min.js"></script>
     <script src="script.js"></script>
+    <script src="scriptSlideshow.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 
 <div id="banner" style="position: relative; z-index: 1;">
     <a href="index.html">
-    <img id="img_me" src="me.jpg" height="400" width="400" style="position: absolute; z-index: 2;"/>
+        <img id="img_me_watercolor" src="portfolio_watercolor9.png" height="425" width="505"  style="position: absolute; z-index: 1;"/>
+    <img id="img_me" src="portfolio.gif" height="400" width="400" style="position: absolute; z-index: 2;"/>
     <span style="position: absolute; top: 0px; z-index: 3;">
         <div id="banner_text">
-            <h1>Nina Dinh</h1>
+            <h1><strong>Nina Dinh</strong></h1>
             <div class="ui text shape">
                 <div class="sides">
-                    <div class="active ui header side">optimistic gal</div>
-                    <div class="ui header side">community activist</div>
-                    <div class="ui header side">curious learner</div>
+                    <div class="active ui header side">college student by day,</div>
+                    <div class="ui header side">superhero by night,</div>
+                    <div class="ui header side">napping by 5pm.</div>
                 </div>
             </div>
         </div>
@@ -38,7 +40,15 @@
 <div id="navbar">
     <div class="ui text menu">
         <a class="active about item" href="index.html">about</a>
-        <a class="portfolio item" href="portfolio.html">portfolio</a>
+        <a class="portfolio ui simple dropdown" style="">experience
+            <div class="menu">
+                <div class="item" id="policy_research">policy research</div>
+                <div class="item" id="data_science">data science</div>
+                <div class="item" id="teaching">teaching</div>
+                <div class="item" id="art">art</div>
+                <div class="item" id="app_dev">app development</div>
+            </div>
+        </a>
         <a class="social item" href="social.html">contact</a>
     </div>
 </div>
@@ -47,12 +57,48 @@
 
 <br/><div class="ui divider" style="width: 50%; margin: auto;"></div><br/><br/>
 
-<div class="ui container" style="text-align: center;">
-    <h3>I think a lot about:</h3>
-    <h3>I experiment through:</h3>
-    <h3>My ideal work is:</h3>
-    <h3>You can find me on the weekends:</h3>
+<div class="about_content ui container">
+    <h3>Hi! I'm Nina, and I have a lot of questions about our world.</h3>
+</div><br/><br/>
+
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+        <div class="subtitle"><h3>I think a lot about:</h3></div><br/>
+        <img src="thinking_watercolor2.jpg" style="width:90%">
+    </div>
+
+    <div class="mySlides fade">
+        <div class="subtitle"><h3>I experiment and learn through:</h3></div><br/>
+        <img src="experience_watercolor-01.jpg" height="600" width="650">
+    </div>
+
+    <div class="mySlides fade">
+        <div class="subtitle"><h3>My ideal work is:</h3></div><br/>
+        <img src="me.jpg" style="width:50%">
+    </div>
+
+    <div class="mySlides fade">
+        <div class="subtitle"><h3>Catch me on the weekends:</h3></div><br/>
+        <img src="me.jpg" style="width:50%">
+    </div>
+
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br/><br/>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
 </div>
 
+<br/><br/><br/><p style="text-align: center;">code & illustrations &copy Nina Dinh 2017</p><br/><br/><br/>
 </body>
 </html>
