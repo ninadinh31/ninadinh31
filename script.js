@@ -27,8 +27,8 @@ $(document).ready(function() {
 
     });
 
-    $('#art').on('click', function() {
-        window.location = "art.html";
+    $('#projects').on('click', function() {
+        window.location = "projects.html";
 
     });
 
